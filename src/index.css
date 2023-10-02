@@ -1,0 +1,136 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 150px;
+  width: 250px;
+  border-radius: 7px;
+  object-fit: cover;
+  transition: 150ms;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 250ms;
+}
+
+.container {
+  background-color: #ff5a5a;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  /* create a strong shadow underneath the text */
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+span {
+  position: relative;
+}
+
+.cardapio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  justify-content: space-between;
+
+  text-align: left;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 20px;
+
+  transition: 250ms;
+
+  margin-top: 32px;
+}
+
+.cardapio:hover {
+  /* transform: scale(1.008);
+  transition: 250ms; */
+}
+
+.prato-container {
+  /* flex: 1; */
+  width: 100%;
+}
+
+.prato-container span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: -8px;
+}
+
+.prato-container span.description {
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+
+.prato-nome {
+  font-size: 1.75rem;
+  font-weight: bold;
+
+  margin: 0px 8px 0px 0px;
+  padding: 0px;
+}
+
+.prato-preco {
+  font-size: 1.25rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: #075200;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.prato-descricao {
+  font-size: 1.45rem;
+  width: 50%;
+  margin-top: 0px;
+  line-height: 2rem;
+}
+
+.prato-ingredientes {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  padding: 8px;
+  background-color: #e7e7e7;
+  border-radius: 0px 8px 8px 8px;
+}
+
+.tag-tipo {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -10px;
+  right: 16;
+  text-transform: uppercase;
+  font-family: monospace;
+  letter-spacing: 0.075rem;
+  font-weight: bold;
+  background-color: #5c52e7;
+  border-radius: 7px;
+  padding: 6px;
+  color: white;
+}
+
+.change-menu {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: black;
+  background-color: #ececec;
+  padding: 0.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
